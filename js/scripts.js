@@ -44,30 +44,15 @@ Board.prototype.threeInARow = function() {
 
 function Game(playerOneName, playerTwoName) {
 
-// var clickTic = function(cell_id, x, y) {
-//   $(cell_id).click(function(event) {
-//     if (newGame.playerOne.player.t_mark);
-//   } else {
-//     $(cell_id).text(newGame.playerTwo.player.symbol);
-//   });
-// //"markCheckAndChange" method
-// }
-
 }
 
 $(document).ready(function() {
   $("form#new-game").submit(function(event) {
 
-    // clickTic("#0", 1, 1);
-    // clickTic("#1", 1, 2);
-    // clickTic("#2", 1, 3);
-    // clickTic("#3", 2, 1);
-    // clickTic("#4", 2, 2);
-    // clickTic("#5", 2, 3);
-    // clickTic("#6", 3, 1);
-    // clickTic("#7", 3, 2);
-    // clickTic("#8", 3, 3);
-
+    $("table").on("click", "td", function() {
+      console.log(this);
+      $(this).css("background-color", "green");
+    });
 
     event.preventDefault();
 
