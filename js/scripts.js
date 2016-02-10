@@ -58,7 +58,6 @@ $(document).ready(function() {
 
     new_board = new Board();
     new_board.initialize();
-    // $(new_board.spaces[0]).append("#0");
     console.log("Lets play")
     console.log(new_board)
   });
