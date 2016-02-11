@@ -50,10 +50,9 @@ $(document).ready(function() {
 
     $("table").on("click", "td", function() {
       console.log(this);
-      //$(this).mark() - mark td with player X or O
+      //board.find(--location).markedBy(currentPlayer);
+      //$(this).text(player.mark) mark td with player X or O
 
-      //$(this).css("background-color", "green");
-      //^^^this works when background-color is not set; confirms click-response of individual td's
     });
 
     event.preventDefault();
