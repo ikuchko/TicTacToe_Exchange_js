@@ -20,11 +20,15 @@ h1 {
 table, td {
   border: 3px solid white;
   border-radius: 50px;
-  background: radial-gradient(#e3f7b5, tan);
+  background: radial-gradient(#89D6F0, #CADBE0);
   height: 150px;
   width: 450px;
 }
 
 table {
   margin: 0 auto;
+}
+
+.winner{
+  display:none;
 }

@@ -14,14 +14,51 @@
 			<h1>Tic Tac Toe</h1>
 		</div>
 
-    <form id="new-game">
-      <button type="submit" class="btn btn-primary">Start game</button>
-    </form><br><br>
+    <ul id = "2 2">
+
+    </ul>
+    <form id="single-player">
+      <button type="submit" class="btn btn-primary">Play with the computer</button>
+    </form>
+    <form id="multiplayer">
+      <button type="submit" class="btn btn-primary">Play with a friend</button>
+    </form>
+    <br><br>
 
     <div id="board">
       <table>
-      
+        <tr>
+          <td id = "1-1">
+          </td>
+          <td id = "1-2">
+          </td>
+          <td id = "1-3">
+          </td>
+        </tr>
+        <tr>
+          <td id = "2-1">
+          </td>
+          <td id = "2-2">
+          </td>
+          <td id = "2-3">
+          </td>
+        </tr>
+        <tr>
+          <td id = "3-1">
+          </td>
+          <td id = "3-2">
+          </td>
+          <td id = "3-3">
+          </td>
+        </tr>
       </table>
+    </div>
+
+    <div class="winner">
+      <span id="result"></span>
+      <form id="play-again">
+        <button type="submit" class="btn btn-primary">Play Again?</button>
+      </form>
     </div>
 
   </body>
